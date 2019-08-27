@@ -1,0 +1,14 @@
+name: OfflineUUID
+version: ${project.version}
+main: dev.foolen.offlineuuid.offlineuuid.Main
+api-version: 1.13
+
+commands:
+  offlineuuid:
+    usage: /<command> <playername>
+    description: Shows the offline uuid of the given playername.
+
+permissions:
+  offlineuuid.use:
+    description: Grants access to the /offlineuuid command.
+    default: op
